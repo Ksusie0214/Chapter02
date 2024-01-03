@@ -3,16 +3,19 @@ package com.javaex.ex04;
 public class PointApp {
 	public static void main(String[] args) {
 		
-		Point xy = new Point();
+		Point xy1 = new Point();
 		
-		xy.setX(5);
-		xy.setY(5);
+		xy1.setX(5);
+		xy1.setY(5);
 		
-		System.out.println(xy.getX());
-		System.out.println(xy.getY());
+		xy1.draw();
 		
-		xy.draw();
+		Point xy2 = new Point();
 		
+		xy2.setX(10);
+		xy2.setY(23);
+		
+		xy2.draw();
 		
 		
 		

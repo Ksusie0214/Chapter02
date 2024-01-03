@@ -23,8 +23,8 @@ public class Point {
 	//		 -일반
 	
 	public void draw() {
-		System.out.println("===========================");
+		System.out.println("=============================================");
 		System.out.println("점[X= "+this.x+", Y= "+this.y+"]를 그렸습니다.");
-		System.out.println("===========================");
+		System.out.println("=============================================");
 	}
 }
