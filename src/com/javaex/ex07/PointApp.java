@@ -12,10 +12,12 @@ public class PointApp {
 		Point p1 = new Point(10, 23);
 		System.out.println(p1.toString());
 		
-		p0.draw();
-		p1.draw();
-		p0.erase();
-		p1.erase();
+		
+		p0.draw(true);
+		p1.draw(true);
+		p0.draw(false);
+		p1.draw(false);
+		
 	}
 
 }

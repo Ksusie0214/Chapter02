@@ -36,13 +36,9 @@ public class Point {
 	public String toString() {
 		return "Point [x=" + x + ", y=" + y + "]";
 	}
-	public void draw() {
-		System.out.println("점"+"[x=" + x + ", y=" + y + "]"+"을 그렸습니다.");
-	}
-	public void erase() {
-		System.out.println("점"+"[x=" + x + ", y=" + y + "]"+"을 지웠습니다.");
-	}
+	public void draw(boolean action) {
+		if(action==true) {System.out.println("점"+"[x=" + x + ", y=" + y + "]"+"을 그렸습니다.");}
+		else {System.out.println("점"+"[x=" + x + ", y=" + y + "]"+"을 지웠습니다.");}
 	
-	
-
+	}
 }
